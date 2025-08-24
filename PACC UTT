@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การคัดเลือกเป็นเครือข่าย PACC ต้านทุจริตต้นแบบ - สำนักงานคลังจังหวัดอุตรดิตถ์</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'navy': '#1e3a8a',
+                        'sky': '#0ea5e9',
+                        'gold': '#fbbf24'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Sarabun', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #1e3a8a 0%, #0ea5e9 100%); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="gradient-bg shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="text-white font-bold text-lg">PACC Klang UTT</div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#home" class="text-white hover:text-gold px-3 py-2 rounded-md text-sm font-medium transition-colors">หน้าหลัก</a>
+                        <a href="#info" class="text-white hover:text-gold px-3 py-2 rounded-md text-sm font-medium transition-colors">ข้อมูลเครือข่าย</a>
+                        <a href="#criteria" class="text-white hover:text-gold px-3 py-2 rounded-md text-sm font-medium transition-colors">หลักเกณฑ์</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="gradient-bg py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                การคัดเลือกเป็นเครือข่าย PACC<br>
+                <span class="text-gold">ต้านทุจริตต้นแบบ</span>
+            </h1>
+            <p class="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+                ประจำปีงบประมาณ พ.ศ. 2568<br>
+                สำนักงานคลังจังหวัดอุตรดิตถ์
+            </p>
+            <div class="bg-white/10 backdrop-blur-sm rounded-lg p-6 max-w-2xl mx-auto">
+                <p class="text-white text-lg">
+                    นำเสนอผลงานการดำเนินงานตามตัวชี้วัดและหลักเกณฑ์การคัดเลือก
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section id="info" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-navy mb-4">ข้อมูลและคุณสมบัติของเครือข่าย</h2>
+                <div class="w-24 h-1 bg-gold mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div class="bg-gradient-to-br from-sky/10 to-navy/10 p-8 rounded-xl">
+                    <h3 class="text-2xl font-semibold text-navy mb-4">เครือข่าย PACC ต้านทุจริต</h3>
+                    <p class="text-gray-700 mb-4">
+                        เครือข่ายภาคีเฝ้าระวังการทุจริต (Private Anti-Corruption Coalition: PACC) 
+                        เป็นกลไกสำคัญในการป้องกันและปราบปรามการทุจริต
+                    </p>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center"><span class="text-gold mr-2">✓</span> ส่งเสริมธรรมาภิบาล</li>
+                        <li class="flex items-center"><span class="text-gold mr-2">✓</span> เฝ้าระวังการทุจริต</li>
+                        <li class="flex items-center"><span class="text-gold mr-2">✓</span> สร้างจิตสำนึกสาธารณะ</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-navy text-white p-8 rounded-xl">
+                    <h3 class="text-2xl font-semibold mb-4">สำนักงานคลังจังหวัดอุตรดิตถ์</h3>
+                    <p class="mb-4">
+                        หน่วยงานที่มุ่งมั่นในการดำเนินงานด้วยความโปร่งใส 
+                        และการมีส่วนร่วมของทุกภาคส่วน
+                    </p>
+                    <div class="bg-white/10 p-4 rounded-lg">
+                        <p class="text-gold font-semibold">วิสัยทัศน์</p>
+                        <p class="text-sm">เป็นองค์กรต้นแบบด้านการป้องกันและเฝ้าระวังการทุจริต</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Criteria Section -->
+    <section id="criteria" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-navy mb-4">แบบแสดงผลงานตามหลักเกณฑ์</h2>
+                <div class="w-24 h-1 bg-gold mx-auto"></div>
+            </div>
+
+            <!-- Indicator 1 -->
+            <div class="mb-12">
+                <div class="bg-white rounded-xl shadow-lg p-8 card-hover">
+                    <h3 class="text-2xl font-bold text-navy mb-6">ตัวชี้วัดที่ 1: การนำหลักธรรมาภิบาลมาใช้ในการบริหารเครือข่าย</h3>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="bg-gradient-to-br from-sky/10 to-navy/10 p-6 rounded-lg text-center">
+                            <div class="w-16 h-16 bg-navy rounded-full flex items-center justify-center mx-auto mb-4">
+                                <span class="text-white text-2xl">⚖️</span>
+                            </div>
+                            <h4 class="font-semibold text-navy mb-3">หลักคุณธรรม</h4>
+                            <a href="https://www.canva.com/design/DAGwnhZzuZ0/B1vSBrEsgrWDNiJNSczCIA/view?utm_content=DAGwnhZzuZ0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9035c59f16"_blank" class="inline-block bg-gold hover:bg-yellow-500 text-white px-4 py-2 rounded-lg transition-colors text-center">
+                                แสดงผลงาน
+                            </a>
+                        </div>
+                        
+                        <div class="bg-gradient-to-br from-sky/10 to-navy/10 p-6 rounded-lg text-center">
+                            <div class="w-16 h-16 bg-sky rounded-full flex items-center justify-center mx-auto mb-4">
+                                <span class="text-white text-2xl">🤝</span>
+                            </div>
+                            <h4 class="font-semibold text-navy mb-3">หลักการมีส่วนร่วม</h4>
+                            <a href="https://www.canva.com/design/DAGwr448_zs/e-0PzC2HI4AGLgIKlhe6VQ/view?utm_content=DAGwr448_zs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h06732d33ee" _blank" class="inline-block bg-gold hover:bg-yellow-500 text-white px-4 py-2 rounded-lg transition-colors text-center">
+                                แสดงผลงาน
+                            </a>
+                        </div>
+                        
+                        <div class="bg-gradient-to-br from-sky/10 to-navy/10 p-6 rounded-lg text-center">
+                            <div class="w-16 h-16 bg-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                                <span class="text-white text-2xl">💼</span>
+                            </div>
+                            <h4 class="font-semibold text-navy mb-3">หลักสำนึกรับผิดชอบ</h4>
+                            <a href="https://www.canva.com/design/DAGwr1B1fJQ/1BUJPIKbiA5AiEg5boC6Vg/view?utm_content=DAGwr1B1fJQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h528d8185b9"_blank" class="inline-block bg-gold hover:bg-yellow-500 text-white px-4 py-2 rounded-lg transition-colors text-center">
+                                แสดงผลงาน
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Indicators 2-5 -->
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-navy rounded-full flex items-center justify-center mr-4">
+                            <span class="text-white font-bold">2</span>
+                        </div>
+                        <h3 class="text-lg font-semibold text-navy">การเข้าร่วมโครงการหรือกิจกรรมที่เกี่ยวข้องกับการป้องกันและเฝ้าระวังการทุจริต</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">แสดงการมีส่วนร่วมในกิจกรรมต่าง ๆ ที่เกี่ยวข้องกับการต้านทุจริต</p>
+                    <a href="https://example.com/projects-work" target="_blank" class="inline-block bg-sky hover:bg-blue-600 text-white px-6 py-2 rounded-lg transition-colors text-center">
+                        แสดงผลงาน
+                    </a>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-sky rounded-full flex items-center justify-center mr-4">
+                            <span class="text-white font-bold">3</span>
+                        </div>
+                        <h3 class="text-lg font-semibold text-navy">การถ่ายทอด เผยแพร่องค์ความรู้ และการจัดทำสื่อเพื่อเผยแพร่ความรู้</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">การสร้างและเผยแพร่เนื้อหาเพื่อสร้างความรู้ความเข้าใจ</p>
+                    <a href="https://example.com/knowledge-work" target="_blank" class="inline-block bg-sky hover:bg-blue-600 text-white px-6 py-2 rounded-lg transition-colors text-center">
+                        แสดงผลงาน
+                    </a>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-gold rounded-full flex items-center justify-center mr-4">
+                            <span class="text-white font-bold">4</span>
+                        </div>
+                        <h3 class="text-lg font-semibold text-navy">การขับเคลื่อนงานด้านการป้องกันและเฝ้าระวังการทุจริต</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">การดำเนินการและผลักดันนโยบายด้านการป้องกันทุจริต</p>
+                    <a href="https://example.com/implementation-work" target="_blank" class="inline-block bg-sky hover:bg-blue-600 text-white px-6 py-2 rounded-lg transition-colors text-center">
+                        แสดงผลงาน
+                    </a>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-navy rounded-full flex items-center justify-center mr-4">
+                            <span class="text-white font-bold">5</span>
+                        </div>
+                        <h3 class="text-lg font-semibold text-navy">การมีส่วนร่วมในการเฝ้าระวังและให้ข้อมูล หรือการแจ้งเบาะแส</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">การสร้างช่องทางและกลไกในการรับแจ้งเบาะแสการทุจริต</p>
+                    <a href="https://example.com/monitoring-work" target="_blank" class="inline-block bg-sky hover:bg-blue-600 text-white px-6 py-2 rounded-lg transition-colors text-center">
+                        แสดงผลงาน
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="gradient-bg py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h3 class="text-2xl font-bold text-white mb-4">สำนักงานคลังจังหวัดอุตรดิตถ์</h3>
+                <p class="text-blue-100 mb-4">เครือข่าย PACC ต้านทุจริตต้นแบบ ประจำปีงบประมาณ พ.ศ. 2568</p>
+                <div class="flex justify-center space-x-6 text-blue-100">
+                    <span>📞 โทรศัพท์: 055-411-234</span>
+                    <span>📧 อีเมล: uttaradit@treasury.go.th</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for showing work -->
+    <div id="workModal" class="fixed inset-0 bg-black bg-opacity-50 hidden z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-xl max-w-2xl w-full max-h-[80vh] overflow-y-auto">
+            <div class="p-6">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 id="modalTitle" class="text-2xl font-bold text-navy"></h3>
+                    <button onclick="closeModal()" class="text-gray-500 hover:text-gray-700 text-2xl">&times;</button>
+                </div>
+                <div id="modalContent" class="text-gray-700">
+                    <!-- Content will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showWork(type) {
+            const modal = document.getElementById('workModal');
+            const title = document.getElementById('modalTitle');
+            const content = document.getElementById('modalContent');
+            
+            const workData = {
+                moral: {
+                    title: 'หลักคุณธรรม',
+                    content: `
+                        <div class="space-y-4">
+                            <h4 class="text-lg font-semibold text-navy">ผลงานด้านหลักคุณธรรม</h4>
+                            <ul class="space-y-2">
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การจัดทำจรรยาบรรณสำหรับเครือข่าย PACC</li>
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การประเมินความเสี่ยงด้านคุณธรรมและจริยธรรม</li>
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การจัดกิจกรรมส่งเสริมคุณธรรมจริยธรรม</li>
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การสร้างแนวทางปฏิบัติที่โปร่งใสและเป็นธรรม</li>
+                            </ul>
+                        </div>
+                    `
+                },
+                participation: {
+                    title: 'หลักการมีส่วนร่วม',
+                    content: `
+                        <div class="space-y-4">
+                            <h4 class="text-lg font-semibold text-navy">ผลงานด้านการมีส่วนร่วม</h4>
+                            <ul class="space-y-2">
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การจัดประชุมเครือข่าย PACC เป็นประจำ</li>
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การเปิดโอกาสให้ประชาชนมีส่วนร่วมในการตรวจสอบ</li>
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การสร้างช่องทางรับฟังความคิดเห็น</li>
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การจัดกิจกรรมรณรงค์ร่วมกับชุมชน</li>
+                            </ul>
+                        </div>
+                    `
+                },
+                responsibility: {
+                    title: 'หลักสำนึกรับผิดชอบ',
+                    content: `
+                        <div class="space-y-4">
+                            <h4 class="text-lg font-semibold text-navy">ผลงานด้านความรับผิดชอบ</h4>
+                            <ul class="space-y-2">
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การจัดทำรายงานผลการดำเนินงานเป็นประจำ</li>
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การติดตามและประเมินผลการดำเนินงาน</li>
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การเปิดเผยข้อมูลต่อสาธารณะ</li>
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การรับผิดชอบต่อผลการดำเนินงาน</li>
+                            </ul>
+                        </div>
+                    `
+                },
+                projects: {
+                    title: 'การเข้าร่วมโครงการและกิจกรรม',
+                    content: `
+                        <div class="space-y-4">
+                            <h4 class="text-lg font-semibold text-navy">โครงการและกิจกรรมที่เข้าร่วม</h4>
+                            <ul class="space-y-2">
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> โครงการ "ราชการไทยใสสะอาด"</li>
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> กิจกรรมวันต่อต้านการทุจริตโลก</li>
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การอบรมเชิงปฏิบัติการด้านการป้องกันทุจริต</li>
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> โครงการเสริมสร้างธรรมาภิบาลในหน่วยงาน</li>
+                            </ul>
+                        </div>
+                    `
+                },
+                knowledge: {
+                    title: 'การถ่ายทอดและเผยแพร่ความรู้',
+                    content: `
+                        <div class="space-y-4">
+                            <h4 class="text-lg font-semibold text-navy">สื่อและการเผยแพร่ความรู้</h4>
+                            <ul class="space-y-2">
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การจัดทำคู่มือการป้องกันการทุจริต</li>
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การผลิตสื่อวิดีโอเพื่อการเรียนรู้</li>
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การจัดทำเว็บไซต์เผยแพร่ความรู้</li>
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การจัดอบรมให้ความรู้แก่บุคลากร</li>
+                            </ul>
+                        </div>
+                    `
+                },
+                implementation: {
+                    title: 'การขับเคลื่อนงานป้องกันทุจริต',
+                    content: `
+                        <div class="space-y-4">
+                            <h4 class="text-lg font-semibold text-navy">การขับเคลื่อนและดำเนินการ</h4>
+                            <ul class="space-y-2">
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การจัดทำแผนปฏิบัติการป้องกันทุจริต</li>
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การติดตามและประเมินผลการดำเนินงาน</li>
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การพัฒนาระบบการควบคุมภายใน</li>
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การสร้างเครือข่ายความร่วมมือ</li>
+                            </ul>
+                        </div>
+                    `
+                },
+                monitoring: {
+                    title: 'การเฝ้าระวังและให้ข้อมูล',
+                    content: `
+                        <div class="space-y-4">
+                            <h4 class="text-lg font-semibold text-navy">ช่องทางและกลไกการเฝ้าระวัง</h4>
+                            <ul class="space-y-2">
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การจัดตั้งศูนย์รับแจ้งเบาะแส</li>
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การพัฒนาระบบรับแจ้งออนไลน์</li>
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การสร้างเครือข่ายผู้เฝ้าระวัง</li>
+                                <li class="flex items-start"><span class="text-gold mr-2">•</span> การจัดทำรายงานการเฝ้าระวัง</li>
+                            </ul>
+                        </div>
+                    `
+                }
+            };
+            
+            const data = workData[type];
+            title.textContent = data.title;
+            content.innerHTML = data.content;
+            modal.classList.remove('hidden');
+        }
+        
+        function closeModal() {
+            document.getElementById('workModal').classList.add('hidden');
+        }
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Close modal when clicking outside
+        document.getElementById('workModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9740cfd1b6d64b9b',t:'MTc1NjAxNzEzOS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
